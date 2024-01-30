@@ -1,0 +1,137 @@
+.btn-main-styles {
+  position: absolute;
+  padding: 3px 9px 3px 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 14.286px;
+  font-weight: 500;
+  border: 1.19px solid rgba(255, 255, 255, 0.1);
+  background: #000;
+
+  &:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+  }
+
+  & .btn-main-styles__span {
+    text-transform: uppercase;
+    color: #000;
+    padding: 1px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 11px;
+  }
+}
+
+.btn-apartments {
+  left: 50%;
+  top: 20%;
+}
+
+.btn-park {
+  left: 30%;
+  top: 55%;
+}
+
+.btn-mansions {
+  left: 10%;
+  top: 60%;
+}
+
+.btn-road {
+  left: 65%;
+  top: 75%;
+}
+
+@media only screen and (max-width: 970px) {
+  .btn-mansions {
+    left: 2%;
+    top: 60%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .btn-apartments {
+    left: 50%;
+    top: 15%;
+  }
+
+  .btn-park {
+    left: 30%;
+    top: 30%;
+  }
+  .btn-mansions {
+    left: 10%;
+    top: 32%;
+  }
+
+  .btn-road {
+    left: 65%;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .btn-apartments {
+    top: 8%;
+  }
+  .btn-park {
+    top: 17%;
+  }
+  .btn-mansions {
+    top: 21%;
+  }
+
+  .btn-road {
+    left: 65%;
+    top: 29%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-apartments {
+    top: 10%;
+  }
+
+  .btn-park {
+    top: 20%;
+  }
+  .btn-mansions {
+    top: 24%;
+  }
+
+  .btn-road {
+    top: 27%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .btn-apartments {
+    top: 5%;
+  }
+
+  .btn-park {
+    top: 19%;
+  }
+  .btn-mansions {
+    top: 24%;
+  }
+
+  .btn-road {
+    top: 24%;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .btn-park {
+    top: 50%;
+  }
+  .btn-mansions {
+    top: 55%;
+  }
+
+  .btn-road {
+    top: 60%;
+  }
+}

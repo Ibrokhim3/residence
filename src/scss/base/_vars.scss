@@ -1,0 +1,22 @@
+:root {
+  --container-width: 1400px;
+  --container-padding: 15px;
+
+  --font-main: "Montserrat", sans-serif;
+  --font-secondary: "Times New roman", serif;
+
+  --page-bg: #fff;
+  --text-color: #000;
+  --text-size: 16px;
+  --accent: #ac182c;
+
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
+  --default-weight: 400;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

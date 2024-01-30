@@ -1,0 +1,54 @@
+html,
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: transparent;
+  padding: 20px 10px 50px 20px;
+}
+
+.footer__download-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-width: 310px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 6px 30px;
+  background: #000;
+  transform: translateY(100vh);
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid white;
+    transition: 0.1s;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .footer {
+    padding: 5px 10px 25px 20px;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__download-btn {
+    transform: scale(0.75) translateY(100vh);
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .footer__download-btn {
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+  }
+}

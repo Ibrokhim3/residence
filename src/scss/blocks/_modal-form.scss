@@ -1,0 +1,152 @@
+.modal-form {
+  display: none;
+  position: fixed;
+  z-index: 250;
+  // padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+}
+
+.modal-form-content {
+  position: relative;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // gap: 30px;
+  background: #000;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 80%;
+}
+
+.modal-form-close {
+  color: #aaaaaa;
+  // float: right;
+  font-size: 28px;
+  font-weight: bold;
+  // position: absolute;
+  top: -10px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.modal-form-left {
+  background: url("../img/form-img.jpg") no-repeat;
+  padding: 80px 30px 84px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-form__title {
+  max-width: 402px;
+  color: #fff;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 100%; /* 45px */
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.modal-form__text {
+  max-width: 383px;
+  color: #fff;
+  text-align: center;
+  line-height: 150%; /* 24px */
+  margin-bottom: 35px;
+}
+
+.modal-form__left-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #f3f2ef;
+  line-height: 210.2%; /* 33.632px */
+}
+
+.modal-form__links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  pointer-events: auto;
+
+  &:hover {
+    color: #dcb115;
+  }
+
+  &:hover .svg-links path {
+    fill: #dcb115;
+  }
+}
+
+.modal-form__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal-form__input {
+  padding: 13px 15px;
+  border-bottom: 1px solid rgba($color: #919191, $alpha: 0.5);
+  width: 100%;
+  max-width: 397px;
+  margin-bottom: 30px;
+
+  color: #fff;
+  &::placeholder {
+    color: #fff;
+    font-size: 18px;
+    line-height: normal;
+  }
+}
+
+.modal-form__submit-btn {
+  padding: 14px 150px;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #000;
+    transition: 0.1s;
+  }
+}
+
+.modal-form__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.modal-form__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 770px) {
+  .modal-form-left {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .modal-form__submit-btn {
+    padding: 14px 100px;
+  }
+}
