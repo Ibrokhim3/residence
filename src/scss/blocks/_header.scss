@@ -24,7 +24,7 @@
 .header__logo-text {
   position: absolute;
   top: 60%;
-  left: 12%;
+  left: 13.5%;
 }
 
 .header__icons-wrapper {
@@ -73,13 +73,13 @@
   }
 
   .header__logo-text {
-    left: 20%;
     top: 75%;
+    left: 23%;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .header__logo-text {
-    left: 22%;
+    left: 24.5%;
   }
 }
