@@ -58,8 +58,10 @@ body {
 .info-text-mobile {
   display: none;
   color: #fff;
-  font-size: 46px;
+  font-size: 36px;
   text-align: center;
+  margin: auto;
+  padding: 40px 20px;
 }
 
 .rotate-phone-icon {
@@ -74,11 +76,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden; //fix was not set
   }
   .info-mobile-wrapper {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 88%; //fix was 100%
   }
 
   .top-shadow {
@@ -113,8 +116,6 @@ body {
 
   .info-text-mobile {
     display: block;
-    margin: auto;
-    padding: 50px 20px;
   }
 
   .info-mobile-wrapper {
