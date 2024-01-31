@@ -32,10 +32,6 @@ const modalSphereJs = () => {
       viewerInstance = new Viewer({
         container: document.querySelector("#viewer"),
         panorama: photoPath,
-
-        // caption: "<b>Residence<b/> 360deg view",
-        // loadingImg: baseUrl + 'loader.gif',
-        // size: { width: "70vw", height: "70vh" },
         touchmoveTwoFingers: true,
         mousewheelCtrlKey: true,
       });
