@@ -13,10 +13,10 @@ const modalSphereJs = () => {
   let viewerInstance = null;
 
   const selectThePhoto = (id) => {
-    if (id === "m1") return "../img/1.png";
-    if (id === "p1") return "../img/2.png";
-    if (id === "m2") return "../img/3.png";
-    if (id === "r2") return "../img/4.png";
+    if (id === "m1") return "../img/1.jpg";
+    if (id === "p1") return "../img/2.jpg";
+    if (id === "m2") return "../img/3.jpg";
+    if (id === "r2") return "../img/4.jpg";
   };
 
   //fixes url path
