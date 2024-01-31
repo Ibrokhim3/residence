@@ -13,11 +13,13 @@ const modalSphereJs = () => {
   let viewerInstance = null;
 
   const selectThePhoto = (id) => {
-    if (id === "m1") return "../../img/1.png";
-    if (id === "p1") return "../../img/2.png";
-    if (id === "m2") return "../../img/3.png";
-    if (id === "r2") return "../../img/4.png";
+    if (id === "m1") return "../img/1.png";
+    if (id === "p1") return "../img/2.png";
+    if (id === "m2") return "../img/3.png";
+    if (id === "r2") return "../img/4.png";
   };
+
+  //fixes url path
 
   placeBtns.forEach((btn) => {
     btn.addEventListener("click", function (e) {
