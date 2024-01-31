@@ -10,8 +10,8 @@ const plumber = require("gulp-plumber");
 const notify = require("gulp-notify");
 const webpack = require("webpack-stream");
 const babel = require("gulp-babel");
-const imagemin = require("gulp-imagemin");
 const changed = require("gulp-changed");
+const imagemin = require("gulp-imagemin");
 
 gulp.task("clean:dev", function (done) {
   if (fs.existsSync("./build/")) {
